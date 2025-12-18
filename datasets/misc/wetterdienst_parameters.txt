@@ -1,0 +1,77 @@
+parameter,minute_1,minute_5,minute_10,hourly,subdaily,daily,monthly,annual
+precipitation_height,"{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}",NA,"{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}"
+precipitation_height_droplet,"{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}",NA,NA,NA,NA,NA,NA
+precipitation_height_rocker,"{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}",NA,NA,NA,NA,NA,NA
+precipitation_form,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}",NA,"{'origin': '-', 'si': '-'}",NA,"{'origin': '-', 'si': '-'}",NA,NA
+pressure_air_site,NA,NA,"{'origin': 'hPa', 'si': 'Pa'}","{'origin': 'hPa', 'si': 'Pa'}","{'origin': 'hPa', 'si': 'Pa'}","{'origin': 'hPa', 'si': 'Pa'}",NA,NA
+temperature_air_mean_200,NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}"
+temperature_air_mean_005,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,"{'origin': '°C', 'si': 'K'}",NA,NA,NA
+humidity,NA,NA,"{'origin': 'pct', 'si': 'pct'}","{'origin': 'pct', 'si': 'pct'}","{'origin': 'pct', 'si': 'pct'}","{'origin': 'pct', 'si': 'pct'}",NA,NA
+temperature_dew_point_mean_200,NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}",NA,NA,NA,NA
+temperature_air_max_200,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}"
+temperature_air_max_005,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,NA,NA,NA,NA
+temperature_air_min_200,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}"
+temperature_air_min_005,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,NA,"{'origin': '°C', 'si': 'K'}",NA,NA
+wind_gust_max,NA,NA,"{'origin': 'm / s', 'si': 'm / s'}","{'origin': 'm / s', 'si': 'm / s'}",NA,"{'origin': 'm / s', 'si': 'm / s'}","{'origin': 'm / s', 'si': 'm / s'}","{'origin': 'm / s', 'si': 'm / s'}"
+wind_speed_min,NA,NA,"{'origin': 'm / s', 'si': 'm / s'}",NA,NA,NA,NA,NA
+wind_speed_rolling_mean_max,NA,NA,"{'origin': 'm / s', 'si': 'm / s'}",NA,NA,NA,NA,NA
+wind_direction_gust_max,NA,NA,"{'origin': 'deg', 'si': 'deg'}",NA,NA,NA,NA,NA
+precipitation_duration,NA,NA,"{'origin': 'min', 'si': 's'}",NA,NA,NA,NA,NA
+precipitation_indicator_wr,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA,NA
+radiation_sky_short_wave_diffuse,NA,NA,"{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}","{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}",NA,"{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}",NA,NA
+radiation_global,NA,NA,"{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}","{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}",NA,NA,NA,NA
+sunshine_duration,NA,NA,"{'origin': 'h', 'si': 's'}","{'origin': 'min', 'si': 's'}",NA,"{'origin': 'h', 'si': 's'}","{'origin': 'h', 'si': 's'}","{'origin': 'h', 'si': 's'}"
+radiation_sky_long_wave,NA,NA,"{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}","{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}",NA,"{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}",NA,NA
+wind_speed,NA,NA,"{'origin': 'm / s', 'si': 'm / s'}","{'origin': 'm / s', 'si': 'm / s'}",NA,"{'origin': 'm / s', 'si': 'm / s'}",NA,NA
+wind_direction,NA,NA,"{'origin': 'deg', 'si': 'deg'}","{'origin': 'deg', 'si': 'deg'}","{'origin': 'deg', 'si': 'deg'}",NA,NA,NA
+cloud_type_layer1,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+cloud_height_layer1,NA,NA,NA,"{'origin': 'm', 'si': 'm'}",NA,NA,NA,NA
+cloud_cover_layer1,NA,NA,NA,"{'origin': '1/8', 'si': 'pct'}",NA,NA,NA,NA
+cloud_type_layer2,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+cloud_height_layer2,NA,NA,NA,"{'origin': 'm', 'si': 'm'}",NA,NA,NA,NA
+cloud_cover_layer2,NA,NA,NA,"{'origin': '1/8', 'si': 'pct'}",NA,NA,NA,NA
+cloud_type_layer3,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+cloud_height_layer3,NA,NA,NA,"{'origin': 'm', 'si': 'm'}",NA,NA,NA,NA
+cloud_cover_layer3,NA,NA,NA,"{'origin': '1/8', 'si': 'pct'}",NA,NA,NA,NA
+cloud_type_layer4,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+cloud_height_layer4,NA,NA,NA,"{'origin': 'm', 'si': 'm'}",NA,NA,NA,NA
+cloud_cover_layer4,NA,NA,NA,"{'origin': '1/8', 'si': 'pct'}",NA,NA,NA,NA
+cloud_cover_total,NA,NA,NA,"{'origin': '1/8', 'si': 'pct'}","{'origin': '1/8', 'si': 'pct'}","{'origin': '1/8', 'si': 'pct'}","{'origin': '1/8', 'si': 'pct'}","{'origin': '1/8', 'si': 'pct'}"
+cloud_cover_total_indicator,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+humidity_absolute,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+pressure_vapor,NA,NA,NA,"{'origin': 'hPa', 'si': 'Pa'}","{'origin': 'hPa', 'si': 'Pa'}","{'origin': 'hPa', 'si': 'Pa'}",NA,NA
+temperature_wet_mean_200,NA,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,NA,NA,NA
+precipitation_indicator,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+pressure_air_sea_level,NA,NA,NA,"{'origin': 'hPa', 'si': 'Pa'}",NA,NA,NA,NA
+temperature_soil_mean_002,NA,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,"{'origin': '°C', 'si': 'K'}",NA,NA
+temperature_soil_mean_005,NA,NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}",NA,NA
+temperature_soil_mean_010,NA,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,"{'origin': '°C', 'si': 'K'}",NA,NA
+temperature_soil_mean_020,NA,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,"{'origin': '°C', 'si': 'K'}",NA,NA
+temperature_soil_mean_050,NA,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,"{'origin': '°C', 'si': 'K'}",NA,NA
+temperature_soil_mean_100,NA,NA,NA,"{'origin': '°C', 'si': 'K'}",NA,"{'origin': '°C', 'si': 'K'}",NA,NA
+sun_zenith_angle,NA,NA,NA,"{'origin': 'deg', 'si': 'deg'}",NA,NA,NA,NA
+visibility_range_indicator,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+visibility_range,NA,NA,NA,"{'origin': 'm', 'si': 'm'}","{'origin': 'm', 'si': 'm'}",NA,NA,NA
+weather,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA,NA
+cloud_density,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA,NA
+wind_gust_max_last_3h,NA,NA,NA,NA,"{'origin': 'm / s', 'si': 'm / s'}",NA,NA,NA
+wind_gust_max_last_6h,NA,NA,NA,NA,"{'origin': 'm / s', 'si': 'm / s'}",NA,NA,NA
+wind_force_beaufort,NA,NA,NA,NA,"{'origin': 'bft', 'si': 'bft'}",NA,"{'origin': 'bft', 'si': 'bft'}","{'origin': 'bft', 'si': 'bft'}"
+snow_depth,NA,NA,NA,NA,NA,"{'origin': 'cm', 'si': 'm'}","{'origin': 'cm', 'si': 'm'}","{'origin': 'cm', 'si': 'm'}"
+snow_depth_new,NA,NA,NA,NA,NA,"{'origin': 'cm', 'si': 'm'}","{'origin': 'cm', 'si': 'm'}","{'origin': 'cm', 'si': 'm'}"
+radiation_sky_short_wave_direct,NA,NA,NA,NA,NA,"{'origin': 'J / cm ** 2', 'si': 'J / m ** 2'}",NA,NA
+snow_depth_excelled,NA,NA,NA,NA,NA,"{'origin': 'cm', 'si': 'm'}",NA,NA
+water_equivalent_snow_depth,NA,NA,NA,NA,NA,"{'origin': 'mm', 'si': 'kg / m ** 2'}",NA,NA
+water_equivalent_snow_depth_excelled,NA,NA,NA,NA,NA,"{'origin': 'mm', 'si': 'kg / m ** 2'}",NA,NA
+count_weather_type_fog,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_thunder,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_storm_strong_wind,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_storm_stormier_wind,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_dew,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_glaze,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_ripe,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}",NA,NA
+count_weather_type_sleet,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+count_weather_type_hail,NA,NA,NA,NA,NA,"{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}","{'origin': '-', 'si': '-'}"
+temperature_air_max_200_mean,NA,NA,NA,NA,NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}"
+temperature_air_min_200_mean,NA,NA,NA,NA,NA,NA,"{'origin': '°C', 'si': 'K'}","{'origin': '°C', 'si': 'K'}"
+precipitation_height_max,NA,NA,NA,NA,NA,NA,"{'origin': 'mm', 'si': 'kg / m ** 2'}","{'origin': 'mm', 'si': 'kg / m ** 2'}"

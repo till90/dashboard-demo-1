@@ -1,0 +1,10 @@
+Babel
+dash
+gunicorn
+dash-bootstrap-components
+pandas
+pandas-stubs
+plotly
+pyyaml
+wetterdienst
+dash_daq
