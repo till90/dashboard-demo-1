@@ -7,13 +7,14 @@ from apps import navigation
 import dash_bootstrap_components as dbc
 #from app import app
 import dash
-#import tensorflow as tf
+import tensorflow as tf
 import numpy as np
 import plotly.express as px
 import json
 import random
+(x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
 
-#dash.register_page(__name__,path='/hownnlearns',title="How neural network learns",description="How neural network learns",image='logo2.png')
+dash.register_page(__name__,path='/hownnlearns',title="How neural network learns",description="How neural network learns",image='logo2.png')
 
 breadcrumb=dbc.Container(
     dbc.Row(
@@ -107,7 +108,6 @@ def update_accordion_items(accordion_item):
     visualize_mnist = ""
     training_mnist =""
     testing_mnist = ""
-    (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
     if accordion_item == "visualize_mnist_dataset":
         #visualize_mnist = "This is the content for MNIST viz"
         train_image_labels, train_image_counts = np.unique(y_train, return_counts=True)
@@ -177,7 +177,6 @@ def update_accordion_items(accordion_item):
 )
 def render_label_img(drilldown_data):
     clicked_label = drilldown_data["points"][0]["label"]
-    (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data() # Will fix it later
     possible_indices = np.where(y_train == int(clicked_label))
     choosen_index = random.choice(possible_indices[0])
     print(possible_indices)
